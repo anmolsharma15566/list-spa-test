@@ -1,0 +1,43 @@
+.App {
+  font-family: "sans-serif";
+  text-align: center;
+}
+
+.item-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item-title {
+  font-weight: bold;
+}
+
+.item-image {
+  max-width: 150px;
+  height: 150px;
+  display: flex;
+}
+
+.item-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.list-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  margin: 2px;
+}
